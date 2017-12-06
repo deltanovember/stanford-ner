@@ -134,7 +134,7 @@ export class NER {
         const tokenized = parsed.split(/\s/gmi);
         const splitRegex = new RegExp('(.+)/([A-Z]+)','g');
         
-        let tagged = _.map(tokenized, function(token) {
+        let tagged = _.map(tokenized, function(token: any) {
             const parts = new RegExp('(.+)/([A-Z]+)','g').exec(token);
             if (parts) {
                 return {
