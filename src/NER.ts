@@ -5,7 +5,7 @@ const _ = require("lodash");
 import {FileNotFoundError} from "./FileNotFoundError";
 const natural = require("natural");
 import * as events from "events";
-conts uuid = require("node-uuid");
+const uuid = require("node-uuid");
 
 /**
  * Options for the NER
