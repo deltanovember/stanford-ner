@@ -2,7 +2,7 @@ import * as childProcess from "child_process";
 import * as path from "path";
 import * as fs from "fs";
 const _ = require("lodash");
-import {FileNotFoundError} from "./FileNotFoundError";
+import { FileNotFoundError } from "./FileNotFoundError";
 const natural = require("natural");
 import * as events from "events";
 const uuid = require("node-uuid");
@@ -73,7 +73,7 @@ export class NER {
             [
                 "-mx1500m",
                 "-cp",
-                path.normalize(path.join(this.options.installPath, this.options.jar)) + 
+                path.normalize(path.join(this.options.installPath, this.options.jar)) +
                     (isWin ? ";" : ":") + path.normalize(path.join(this.options.installPath, "/lib/*")),
                 "edu.stanford.nlp.ie.crf.CRFClassifier",
                 "-loadClassifier",
