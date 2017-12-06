@@ -16,7 +16,7 @@
   "license": "GNU General Public License, version 2",
   "dependencies": {
     "lodash": "^4.13.1",
-    "natural": "^0.4.0",
+    "natural": "^0.5.4",
     "node-uuid": "^1.4.7"
   }
 }
