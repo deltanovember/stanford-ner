@@ -1,11 +1,11 @@
 import * as childProcess from "child_process";
 import * as path from "path";
 import * as fs from "fs";
-import * as _ from "lodash";
+const _ = require("lodash");
 import {FileNotFoundError} from "./FileNotFoundError";
-import * as natural from "natural";
+const natural = require("natural");
 import * as events from "events";
-import * as uuid from "node-uuid";
+conts uuid = require("node-uuid");
 
 /**
  * Options for the NER
