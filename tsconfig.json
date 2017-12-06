@@ -4,7 +4,7 @@
         "declaration": true,
         "module": "commonjs",
         "sourceMap": true,
-        "moduleResolution": "node",
+        "moduleResolution": "classic",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "outDir": "dist",
